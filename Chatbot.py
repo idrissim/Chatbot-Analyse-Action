@@ -158,7 +158,7 @@ available_functions = {
 if 'messages' not in st.session_state:
     st.session_state['messages']=[]
 #Définit le titre et le champ de saisie pour l'utilisateur
-st.title("ChatBot CDG \n Plateforme interactive et intuitive pour l'analyse financière des actions en bourse.")
+st.title("ChatBot \n Plateforme interactive et intuitive pour l'analyse financière des actions en bourse.")
 user_input = st.text_input('Posez votre question:')
 
 #IMPORTANT! Traitement du message de l'utilisateur selon les étapes suivantes:
