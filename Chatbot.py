@@ -84,6 +84,10 @@ functions = [
                     'type': 'string',
                     'description':"le symbole boursier d'une action d'entreprise (par exemple le ticker de l'entreprise Tesla est TSLA)",
                 },
+                 'window':{
+                    'type': 'integer',
+                    'description':"le nombre de jours ouvrés sur la période de calcul",
+                },
             },
              'required':['ticker','window'],
         },
@@ -97,6 +101,10 @@ functions = [
                 'ticker':{
                     'type': 'string',
                     'description':"le symbole boursier d'une action d'entreprise (par exemple le ticker de l'entreprise Tesla est TSLA)",
+                },
+                 'window':{
+                    'type': 'integer',
+                    'description':"le nombre de jours ouvrés sur la période de calcul",
                 },
             },
              'required':['ticker','window'],
